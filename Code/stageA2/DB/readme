@@ -1,0 +1,13 @@
+This folder contains three files; DB.key is a text file of
+64 bytes; it represents a table of 4 entries, each 16 byte long;
+The first 8 bytes of each entry denote a uid and next 8-byte the
+secret key of user with the uid. Your key
+server K should read this file and verify that uid C and S sent
+by the client are in this table. It should use the secret key
+of C to encrypt the reply sent to C and secret key of S for
+token.
+
+Two secret keys are stored in Ckey.h and Skey.h. C and S
+should include their key file, respectively. This is how
+C and S know their secret keys. (Assume these are stored in a
+secret place).
