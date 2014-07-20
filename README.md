@@ -6,15 +6,13 @@ USAGE OF DES,RPC using Kerberoes model.(C language).
 Contains folder RPC which tells how to use RPC on soloris.
 
 Objective –
-This project is designed to teach DES
+This project is designed to learn DES
 (data encryption standard), client-server
 programming using rpcgen, and authenticati
 on protocols based on Kerberos design.
 Problem –
-For most applications, the client-app
-lication server communication should be
-encrypted For sake of privacy. Therefore the clie
-nt should first acquire
+For most applications, the client-application server communication should be
+encrypted For sake of privacy. Therefore the client should first acquire
 an encryption key and
 somehow deliver it to the server before sending
 application data to the server. The key is
